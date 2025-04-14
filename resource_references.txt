@@ -1,0 +1,17 @@
+# metasploit on ubuntu
+https://adamtheautomator.com/install-metasploit-on-ubuntu/
+
+# nginx vulnerability scanner
+https://github.com/stark0de/nginxpwner
+
+# rogue winrm to exploit windows machines that don't have it
+https://github.com/antonioCoco/RogueWinRM
+
+# Powershell Phishing exploit
+https://room362.com/posts/2015/powershell-popups-and-capture/
+
+# other exploits (may/may not be applicable)
+https://room362.com/posts/
+
+# Windows Post Exploitation (after gaining access)
+https://github.com/emilyanncr/Windows-Post-Exploitation
